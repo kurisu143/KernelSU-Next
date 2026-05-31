@@ -2,7 +2,7 @@
 set -eu
 
 GKI_ROOT=$(pwd)
-OWNER="pershoot"
+OWNER="kurisu143"
 REPO="KernelSU-Next"
 
 display_usage() {

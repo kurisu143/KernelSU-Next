@@ -139,8 +139,8 @@ KSU_NEW_DCACHE_FLUSH := $(shell grep -q __flush_dcache_area $(srctree)/arch/arm6
 $(info -- KernelSU-Next new DCACHE flush: $(KSU_NEW_DCACHE_FLUSH))
 
 ifndef KSU_NEXT_MANAGER_LIST
-# KSUN, pershoot
-KSU_NEXT_MANAGER_LIST := 0x3e6:79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7,0x338:f26471a28031130362bce7eebffb9a0b8afc3095f163ce0c75a309f03b644a1f
+# KurisuNext
+KSU_NEXT_MANAGER_LIST := 0x399:4cb560b53f74caac84b9cb0cb1e3d6a528380b2b9193ff3fdc908df59d13dfb3
 endif
 
 ifdef KSU_MANAGER_PACKAGE
